@@ -1,13 +1,10 @@
-#ifndef VECTOR_H
-#define VECTOR_H
-
 #include <initializer_list>
 #include <vector>
 #include <iostream>
 using namespace std;
 
-class Vector {
-private:
+class Vector
+{
     vector<int> elements;
     int size;
 
@@ -22,5 +19,3 @@ public:
     void readFromInput();
     int operator*(const Vector& other) const;  // Определение скалярного произведения
 };
-
-#endif
