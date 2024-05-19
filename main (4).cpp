@@ -1,8 +1,9 @@
 #include <iostream>
-#include "vector.h"  // Использует vector.h для определения класса Vector
+#include "vector.h"
 using namespace std;
 
-int main() {
+int main()
+{
     int size;
     cout << "Введите размер векторов: ";
     cin >> size;
